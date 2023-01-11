@@ -1,0 +1,23 @@
+.game-element-not-clicked {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  font-size: 20vh;
+  align-items: center;
+  justify-content: center;
+  background-color: beige;
+}
+
+.game-element-clicked {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  font-size: 20vh;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(247 247 247);
+}
+
+.game-element-not-clicked:hover {
+  background-color: rgb(198, 198, 191);
+}
